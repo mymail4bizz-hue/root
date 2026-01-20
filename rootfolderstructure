@@ -1,0 +1,29 @@
+root/
+├── README.md
+├── LICENSE
+├── .gitignore
+├── config/
+│   ├── config.yaml
+│   └── secrets.example.json
+├── src/
+│   ├── main.py
+│   ├── utils.py
+│   ├── modules/
+│   │   ├── __init__.py
+│   │   ├── video_engine.py
+│   │   ├── visual_synthesizer.py
+│   │   └── data_processor.py
+├── assets/
+│   ├── images/
+│   │   └── placeholder.png
+│   ├── videos/
+│   │   └── intro.mp4
+│   └── styles/
+│       └── main.css
+├── tests/
+│   ├── test_main.py
+│   └── test_utils.py
+├── scripts/
+│   └── deploy.sh
+├── requirements.txt
+└── Dockerfile
