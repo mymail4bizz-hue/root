@@ -1,0 +1,6 @@
+cd ~/krispey_root_build   # wherever you saved the launcher
+git init
+git remote add origin https://github.com/mymail4bizz-hue/root.git  # your fork
+git add krispey_root_setup.sh  # or the full upgraded launcher
+git commit -m "Add ROOT Data Action Launcher"
+git push -u origin master
